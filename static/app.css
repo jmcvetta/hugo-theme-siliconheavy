@@ -1,0 +1,18 @@
+.section {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hero {
+	background-image: url(img/dtla.jpg);
+}
+#hero h1 {
+	color: white;
+	font-family: crimson-text, serif;
+	font-size: 5rem;
+}
+#articles {
+	background-color: #c9a575;
+}
+#services {
+	background-color: #75c9a5;
+}
