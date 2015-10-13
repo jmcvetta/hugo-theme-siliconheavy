@@ -2,22 +2,7 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/foundation/css/normalize.css">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/foundation/css/foundation.css">
-
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/foundation/css/app.css">
-
-	<title>
-		{{ .Site.Title }}
-	</title>
-
-	{{/* Per Zurb example, only this JS file is loaded in header; others are
-	loaded at end of body. */}}
-	<script src="{{ .Site.BaseURL }}/foundation/js/vendor/modernizr.js"></script>
-
+{{ partial "header.html" }}
 
 </head>
 
@@ -26,12 +11,7 @@
 
 {{ partial "body.html" }}
 
-
-	<script src="{{ .Site.BaseURL }}/foundation/js/vendor/jquery.js"></script>
-	<script src="{{ .Site.BaseURL }}/foundation/js/foundation.min.js"></script>
-	<script>
-		$(document).foundation();
-	</script>
+{{ partial "footer.html" }}
 
 </body>
 
