@@ -1,0 +1,1 @@
+requires bower-installer
