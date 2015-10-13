@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/foundation/css/normalize.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/foundation/css/foundation.css">
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/foundation/css/app.css">
+
+
+<title>
+	{{ .Site.Title }}
+</title>
+
+{{/* Per Zurb example, only this JS file is loaded in header; others are
+loaded at end of body. */}}
+<script src="{{ .Site.BaseURL }}/foundation/js/vendor/modernizr.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/ext/fullpage.js/jquery.fullPage.css" />
+
+
+
+
+<style type="text/css">
+	.section {
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#hero {
+		background-image: url(img/la-at-night.jpg);
+	}
+	#hero h1 {
+		color: white;
+		font-family: crimson-text, serif;
+		font-size: 5rem;
+	}
+	#articles {
+		background-color: #c9a575;
+	}
+	#services {
+		background-color: #75c9a5;
+	}
+</style>
